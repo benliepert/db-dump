@@ -22,7 +22,6 @@ pub struct VersionId(pub u32);
 
 /// One row of **versions.csv**.
 #[derive(Clone, Debug)]
-#[non_exhaustive]
 pub struct Row {
     /// PRIMARY KEY
     pub id: VersionId,
